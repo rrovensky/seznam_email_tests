@@ -1,8 +1,8 @@
 Feature: Seznam Account Login
-    Tests for checking login to seznam account
+    Tests for checking the ability to send email from Seznam account
 
-    Scenario: Sending email from Seznam account
-        Given user is logged in to his/her Seznam account
+    Scenario: User can send email from seznam account
+        Given User is logged in to Seznam account
         When a contact is picked from Kontakty
         And email composed and sent
-        Then this email is visible in Odoslane folder
+        Then email is in Odeslane folder

@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8648b16-cfb3-45b5-8a10-acc4648206a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gmail_tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/seznam_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/seznam_navigation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/send_email.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/step_definitions/test_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/step_definitions/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/step_definitions/test_send_email.py" afterDir="false" />
-    </list>
+    <list default="true" id="b8648b16-cfb3-45b5-8a10-acc4648206a6" name="Changes" comment="seznam email tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;roman-rovensky-epam&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/roman-rovensky-epam/seznam_emails_tests.git&quot;,
+    &quot;accountId&quot;: &quot;aa5f8a83-0ecb-4ddd-af71-09383ec310a9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -46,19 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Roman_Rovensky/PycharmProjects/gmail_tests/.venv/Scripts",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman_Rovensky/PycharmProjects/seznam_email_tests/pages&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roman_Rovensky\PycharmProjects\seznam_email_tests\pages" />
       <recent name="C:\Users\Roman_Rovensky\PycharmProjects\gmail_tests\tests\features" />
       <recent name="C:\Users\Roman_Rovensky\PycharmProjects\gmail_tests2\tests\step_definitions" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Roman_Rovensky\PycharmProjects\seznam_email_tests" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install -r requirements.txt" />
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -76,6 +80,136 @@
       <option name="presentableId" value="Default" />
       <updated>1717697475026</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st draft">
+      <option name="closed" value="true" />
+      <created>1717772946545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717772946545</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1st draft">
+      <option name="closed" value="true" />
+      <created>1717774057999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717774057999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="another changes">
+      <option name="closed" value="true" />
+      <created>1717943829980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717943829980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="another changes">
+      <option name="closed" value="true" />
+      <created>1717946185232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717946185232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="another changes">
+      <option name="closed" value="true" />
+      <created>1717948194330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717948194330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="another changes">
+      <option name="closed" value="true" />
+      <created>1717948278118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717948278118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717959013803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717959013803</updated>
+    </task>
+    <task id="LOCAL-00008" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717959339940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717959339940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717959723176</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717959723176</updated>
+    </task>
+    <task id="LOCAL-00010" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717960117018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717960117018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717960533772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717960533773</updated>
+    </task>
+    <task id="LOCAL-00012" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717961471336</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717961471336</updated>
+    </task>
+    <task id="LOCAL-00013" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717961541136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717961541136</updated>
+    </task>
+    <task id="LOCAL-00014" summary="seznam email tests">
+      <option name="closed" value="true" />
+      <created>1717961790907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717961790907</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st draft" />
+    <MESSAGE value="another changes" />
+    <MESSAGE value="seznam email tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="seznam email tests" />
   </component>
 </project>

@@ -1,7 +1,12 @@
-Feature: Seznam Account Login
-    Tests for checking login to seznam account
+Feature: Seznam Email Account Login
+    Tests for checking login to seznam email account
 
-    Scenario: Login to seznam account
+    Scenario Outline: Login to seznam email account
         Given seznam default login page is open
-        When I enter my valid Seznam login and Password and hit Sign in
-        Then I can see my Inbox
+        When I enter valid Seznam <login> and <password> and hit Sign in
+        Then I see Seznam Inbox
+
+        Examples:
+        |   login                       |   password    |
+        |   roman.test@post.cz          |   @TEst1234   |
+        |   roman.nonexistent@post.cz   |   fake1234    |
