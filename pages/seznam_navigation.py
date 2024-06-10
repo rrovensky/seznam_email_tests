@@ -1,13 +1,4 @@
 from playwright.sync_api import Page, expect
-import os
-import sys
-
-# ROOT_DIR = os.path.dirname(os.path.abspath('__file__'))
-#
-# try:
-#     sys.path.index(f'{ROOT_DIR}')
-# except ValueError:
-#     sys.path.append(f'{ROOT_DIR}')
 
 
 class SeznamNavigationMenu:
