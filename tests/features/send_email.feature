@@ -1,4 +1,4 @@
-Feature: Seznam Account Login
+Feature: Sending email from Seznam Account
     Tests for checking the ability to send email from Seznam account
 
     Scenario: User can send email from seznam account
