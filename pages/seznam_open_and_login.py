@@ -1,5 +1,6 @@
 from playwright.sync_api import Page, expect
 
+LOGIN_BY = "Log in by email or phone"
 
 class OpenSeznam:
     def __init__(self, page: Page):
@@ -8,7 +9,7 @@ class OpenSeznam:
     def open_seznam(self):
         """Opens the default Seznam email login page"""
         self.page.goto("https://email.seznam.cz")
-        expect(self.page.get_by_role("textbox", name="Email account or phone number"))
+        expect(self.page.get_by_role("textbox", name=LOGIN_BY))
 
 
 class LoginToSeznam:
@@ -19,8 +20,8 @@ class LoginToSeznam:
 
     def enter_login(self):
         """Method checks if field for entering account ID present, fills in the ID and confirms"""
-        expect(self.page.get_by_role("textbox", name="Email account or phone number"))
-        self.page.get_by_role("textbox", name="Email account or phone number").fill(self.user)
+        expect(self.page.get_by_role("textbox", name=LOGIN_BY))
+        self.page.get_by_role("textbox", name=LOGIN_BY).fill(self.user)
         self.page.get_by_role("button", name="Continue").click()
 
     def enter_pwd(self):

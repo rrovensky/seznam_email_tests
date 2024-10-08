@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8648b16-cfb3-45b5-8a10-acc4648206a6" name="Changes" comment="removing commented out parts" />
+    <list default="true" id="b8648b16-cfb3-45b5-8a10-acc4648206a6" name="Changes" comment="fixing role name on default page">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/seznam_email_tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seznam_email_tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/seznam_email_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/seznam_email_handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/seznam_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/seznam_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/seznam_open_and_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/seznam_open_and_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/send_email.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/send_email.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/step_definitions/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_definitions/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/step_definitions/test_send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_definitions/test_send_email.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +43,12 @@
     &quot;assignee&quot;: &quot;roman-rovensky-epam&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/roman-rovensky-epam/seznam_emails_tests.git&quot;,
-    &quot;accountId&quot;: &quot;aa5f8a83-0ecb-4ddd-af71-09383ec310a9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/roman-rovensky-epam/seznam_emails_tests.git",
+    "accountId": "65ece18b-c732-4d93-aaa3-68fe23268e68"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,14 +58,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman_Rovensky/PycharmProjects/seznam_email_tests/pages&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Projects/seznam_email_tests",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Roman_Rovensky\PycharmProjects\seznam_email_tests\pages" />
@@ -67,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -208,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718007384451</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixing feature name">
+      <option name="closed" value="true" />
+      <created>1718007566438</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718007566438</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +252,8 @@
     <MESSAGE value="another changes" />
     <MESSAGE value="seznam email tests" />
     <MESSAGE value="removing commented out parts" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing commented out parts" />
+    <MESSAGE value="fixing feature name" />
+    <MESSAGE value="fixing role name on default page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing role name on default page" />
   </component>
 </project>

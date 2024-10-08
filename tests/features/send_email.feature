@@ -4,5 +4,5 @@ Feature: Sending email from Seznam Account
     Scenario: User can send email from seznam account
         Given User is logged in to Seznam account
         When a contact is picked from Kontakty
-        And email composed and sent
+        When email composed and sent
         Then email is in Odeslane folder
