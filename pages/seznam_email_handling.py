@@ -8,23 +8,26 @@ class WriteAndSendEmail:
         self.page = page
         self.email_to = email_to
         self.email_title = f'title_{time.time()}'
+        self.subject = "Předmět…"
+        self.button_psat = "Psát se vším všudy ›"
+        self.textbox_hledat = "Hledat e-mail, přílohu či"
 
     def find_contact(self):
         """Opens Kontakty section of Seznam email account and finds contact"""
         self.page.get_by_role("link", name="Kontakty").click()
-        expect(self.page.get_by_role("textbox", name="Hledat e-mail, přílohu či"))
-        self.page.get_by_role("textbox", name="Hledat e-mail, přílohu či").fill(self.email_to)
+        expect(self.page.get_by_role("textbox", name=self.textbox_hledat))
+        self.page.get_by_role("textbox", name=self.textbox_hledat).fill(self.email_to)
         expect(self.page.get_by_label("Výpis zpráv")).to_contain_text(self.email_to)
         self.page.get_by_role("link", name="Roman Rovensky roman.rovensky").click()
 
     def email_composed_and_sent(self):
         """Composes email with Title, message body and sends it"""
         self.page.locator("textarea").click()
-        expect(self.page.get_by_role("button", name="Psát se vším všudy ›"))
-        self.page.get_by_role("button", name="Psát se vším všudy ›").click()
-        expect(self.page.get_by_placeholder("Předmět…")).to_be_visible()
-        self.page.get_by_placeholder("Předmět…").click()
-        self.page.get_by_placeholder("Předmět…").fill(self.email_title)
+        expect(self.page.get_by_role("button", name=self.button_psat))
+        self.page.get_by_role("button", name=self.button_psat).click()
+        expect(self.page.get_by_placeholder(self.subject)).to_be_visible()
+        self.page.get_by_placeholder(self.subject).click()
+        self.page.get_by_placeholder(self.subject).fill(self.email_title)
         self.page.locator("div").filter(
             has_text=re.compile(r"^PřílohyMůžete ještě přidat přílohy o velikosti \.$")).locator(
             "div").first.click()

@@ -6,4 +6,4 @@
 
 2) Run tests from project's root dir: 
 
-`pytest --headed --html=report/results.html`
+`python -m pytest --headed --html=report/results.html`
